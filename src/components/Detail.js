@@ -6,12 +6,7 @@ const Detail = ({ productDetail }) => {
   const {
     product_photos,
   } = productDetail;
-  console.log(product_photos)
-  //   console.log(productDetail);
-  //   console.log(product_description);
-  //   console.log(offer);
-  //   console.log(product_photos);
-  //   console.log(product_title);
+  
   return (
     <Stack>
       <HorizontalScrollBar data={product_photos} />

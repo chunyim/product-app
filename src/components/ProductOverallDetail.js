@@ -5,8 +5,8 @@ import Loader from "./Loader.js";
 
 const ProductOverallDetail = ({ productDetail }) => {
   const { offer, product_title, product_description } = productDetail;
-  console.log(offer);
-  console.log(productDetail);
+  // console.log(offer);
+  // console.log(productDetail);
 
   const [showDescription, setShowDescription] = useState(true);
 
